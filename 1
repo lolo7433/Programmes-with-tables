@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+void xd(int nobsomme[], int tailleTableau);
+
+int main()
+{
+int tableau [4];
+tableau[0]=50;
+tableau[1]=50;
+tableau[2]=50;
+tableau[3]=50;
+xd(tableau, 4);
+
+}
+
+void xd(int nobsomme[], int tailleTableau)
+{
+	int i;
+	i=nobsomme[0]+nobsomme[1]+nobsomme[2]+nobsomme[3];
+	printf("%d", i);
+	return i;	
+}
